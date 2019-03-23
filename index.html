@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bayside Constructions</title>
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Fonts-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+
+  <!--NAVBAR-->
+  <nav class="bg-bayside navbar navbar-expand-lg navbar-dark fixed-top">
+    <!--Brand Badge and Logo-->
+    <img class="img-logo" src="images/logo-trans.png" alt="logo image">
+    <img class="img-badge" src="images/Badge.png" alt="badge image">
+
+    <!--Toggler Button-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Expanded Navbar-->
+    <div class="collapse navbar-collapse" id="navbarText">
+      <!--right side-->
+      <div class="float-left header-left">
+        <ul class="navbar-nav">
+          <li class="nav-item" onmouseover="display_dropdown()" onmouseout="undisplay_dropdown()">
+            <a class="text-white bold" href="#">PROJECTS <i class="fa fa-caret-down"></i>&nbsp;&nbsp;</a>
+            <!--DROPDOWN TAB-->
+            <div class="dropdown-container bg-bayside" id="dropdownList">
+              <p>Asia (East)</p>
+              <p>Asia (West)</p>
+              <p>Europe</p>
+              <p>Africa</p>
+              <p>North America</p>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="text-white bold" href="#">THOUGHT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="float-right header-right">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="text-white bold" href="#">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white bold" href="#">AGENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white bold" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white bold" href="#">CAREERS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><!--End of NAVBAR-->
+
+  <!--MAIN COVER-->
+  <div class="cover-background" id="projectImage">
+    <div class="caret">
+      <i class="fa fa-arrow-circle-left cover-left" id="caretLeft"></i>
+      <i class="fa fa-arrow-circle-right cover-right" id="caretRight"></i>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+          <div class="description">
+            <p class="description-subheading" id="projectLocation">Las Vegas, Nevada</p>
+            <h3 class="description-heading" id="projectName">TURNBULL TOWERS</h3>
+            <p class="description-text" id="projectDescription">The Turnbull Towers have become an icon for Vegas. Instead of competing in a futile race for ultimate height, the project proposes an iconographic constellation of two high-rise structures that actively engage the city space
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--End of MAIN COVER-->
+
+  <!--SERVICES SECTION-->
+  <div class="services">
+    <h2 class="services-heading horizontal-center">SERVICES</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="card-1" class="card horizontal-center">
+            <div class="overlay">
+              <h3>General Contracting</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia excepturi aliquam voluptatem eum, veritatis dignissimos nobis ducimus qui dolor!</p>
+              <p class="read-more horizontal-center">Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="card-2" class="card horizontal-center">
+            <div class="overlay">
+              <h3>Construction Consultancy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia excepturi aliquam voluptatem eum, veritatis dignissimos nobis ducimus qui dolor!</p>
+              <p class="read-more horizontal-center">Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="card-3" class="card horizontal-center">
+            <div class="overlay">
+              <h3>Architecture<br>& Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia excepturi aliquam voluptatem eum, veritatis dignissimos nobis ducimus qui dolor!</p>
+              <p class="read-more horizontal-center">Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="card-4" class="card horizontal-center">
+            <div class="overlay">
+              <h3>Roads & Highways</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia excepturi aliquam voluptatem eum, veritatis dignissimos nobis ducimus qui dolor!</p>
+              <p class="read-more horizontal-center">Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="card-5" class="card horizontal-center">
+            <div class="overlay">
+              <h3>Oil And Gas Fields</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia excepturi aliquam voluptatem eum, veritatis dignissimos nobis ducimus qui dolor!</p>
+              <p class="read-more horizontal-center">Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="card-6" class="card horizontal-center">
+            <div class="overlay">
+              <h3>Power<br>Stations</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia excepturi aliquam voluptatem eum, veritatis dignissimos nobis ducimus qui dolor!</p>
+              <p class="read-more horizontal-center">Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--End of SERVICE SECTION-->
+
+  <!--OVERVIEW SECTION-->
+  <div class="overview">
+    <div class="caret-white">
+      <i class="fa fa-arrow-circle-left cover-white-left"></i>
+      <i class="fa fa-arrow-circle-right cover-white-right"></i>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <i id="fontAwesome" class="fa fa-diamond" aria-hidden="true"></i>
+        </div>
+        <div class="col-lg-9">
+          <h3>CERTIFIED COMPANY</h3>
+          <p class="overview-description"> Bayside Constructions is an ISO9001 certified company licensed to operate inside North America. Our company is in strict compliance with the United States Labor Code.</p>
+          <p class="know-more">Learn more about ISO Standards</p>
+        </div>
+      </div>
+    </div>
+  </div><!--End of OVERVIEW SECTION-->
+
+  <!--CLIENTS SECTION-->
+
+  <div class="clients">
+    <h2 class="horizontal-center">OUR CLIENTS</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 move-down-25">
+          <img src="images/Airbus.png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <img src="images/standard.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/playboy.png" alt="">
+        </div>
+        <div class="col-lg-4 move-down-25">
+          <img src="images/nike.png" alt="">
+        </div>
+        <div class="col-lg-4">
+          <img src="images/Aljazeera.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 move-down-50">
+          <img src="images/spacex.png" alt="">
+        </div>
+        <div class="col-lg-6 move-down-25">
+          <img src="images/coca cola.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div><!--end of CLIENTS SECTION-->
+
+  <!--NEWS SECTION-->
+
+  <div class="news bg-bayside">
+    <div class="caret-white">
+      <i class="fa fa-arrow-circle-left cover-white-left"></i>
+      <i class="fa fa-arrow-circle-right cover-white-right"></i>
+    </div>
+    <h2 class="horizontal-center">NEWS</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="news-card horizontal-center" id="news-left">
+            <div class="news-overlay">
+              <h3>REAL ESTATE INVESTING IN 2018</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="news-card horizontal-center" id="news-main">
+            <div class="news-overlay">
+              <h3>RISING CEMENT PRICES - BUILDERS GET CREATIVE</h3>
+              <p class="horizontal-center"> Read More </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="news-card horizontal-center" id="news-right">
+            <div class="news-overlay">
+              <h3>HOW TOWN PLANNERS PREDICT THE FUTURE</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--end of NEWS SECTION-->
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container">
+      <h2>Quick Links</h2>
+      <div class="row">
+        <div class="col-lg-6 text-left">
+          <p>About Us</p>
+          <p>Careers</p>
+          <p>Contact Us</p>
+          <p>Our Projects</p>
+        </div>
+        <div class="col-lg-6 text-right">
+          <p>Responsibility</p>
+          <p>Health And Safety</p>
+          <p>Annual Review</p>
+          <p>Regulations</p>
+        </div>
+      </div>
+    </div>
+  </footer><!--end of FOOTER-->
+
+
+
+
+
+
+  <!--JAVASCRIPTS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="javascripts/index.js"></script>
+  <script src="javascripts/objects.js"></script>
+</body>
+</html>
